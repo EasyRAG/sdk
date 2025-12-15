@@ -34,10 +34,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/easyrag/sdk-js"
+    "url": "https://github.com/easyrag/sdk"
   },
   "bugs": {
-    "url": "https://github.com/easyrag/sdk-js/issues"
+    "url": "https://github.com/easyrag/sdk/issues"
   },
   "homepage": "https://easyrag.com",
   "devDependencies": {

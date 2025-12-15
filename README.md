@@ -919,7 +919,7 @@ The SDK respects API rate limits:
 
 - 📧 Email: support@easyrag.com
 - 📚 Docs: https://easyrag.com/docs
-- 🐛 Issues: https://github.com/easyrag/sdk-js/issues
+- 🐛 Issues: https://github.com/easyrag/sdk/issues
 
 ## License
 
