@@ -1,0 +1,51 @@
+{
+  "name": "@easyrag/sdk",
+  "version": "0.1.0",
+  "description": "Official JavaScript SDK for EasyRAG.com API",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "rag",
+    "ai",
+    "search",
+    "embeddings",
+    "vector-search",
+    "semantic-search",
+    "document-processing"
+  ],
+  "author": "EasyRAG",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easyrag/sdk-js"
+  },
+  "bugs": {
+    "url": "https://github.com/easyrag/sdk-js/issues"
+  },
+  "homepage": "https://easyrag.com",
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
