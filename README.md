@@ -8,6 +8,10 @@ Official JavaScript/TypeScript SDK for [EasyRAG](https://easyrag.com) - RAG as a
 npm install @easyrag/sdk
 ```
 
+## Getting an API Key
+
+To obtain an API key, [Sign Up to EasyRAG](https://easyrag.com/login) and generate a new API via the [Dashboard](https://easyrag.com/dashboard)
+
 ## Quick Start
 
 ```typescript
